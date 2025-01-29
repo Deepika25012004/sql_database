@@ -101,11 +101,3 @@ UPDATE Products
 SET StockQuantity = StockQuantity - 1
 WHERE ProductID = 1;  -- Assuming ProductID 1 (Laptop) was sold
 
--- Step 5: Cleanup (Optional)
--- Uncomment the following lines to drop the tables and database if needed.
-
--- DROP TABLE IF EXISTS OrderDetails;
--- DROP TABLE IF EXISTS Orders;
--- DROP TABLE IF EXISTS Customers;
--- DROP TABLE IF EXISTS Products;
--- DROP DATABASE IF EXISTS ECommerceDB;
